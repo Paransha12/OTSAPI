@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20230309_1426" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on 25 July 2023" creationVersion="10.5.2"
+    domain="AddNumber25072023" extDocPrefix="" name="AddNumbers"
+    owner="paransha.vyas" rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    updateResultsDbOnItemChange="false" uuid="00000189-8c14-b4ff-0004-9e0b2a86b7a8">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings
+        ghRepositoryURL="https://lp1-ap-52016888.prod.hclpnp.com:5443/RTCP/"
+        trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!6136" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsOption="false" dpsPass="#com.ghc.1!3255" dpsUser=""
+                driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                password="#com.ghc.1!8e427241117055310CBC6A5F40F321167E1212BD4A9C4437"
+                url="jdbc:sqlserver://localhost:1433;databasename=APIDB" user="Paransha12">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!30ed"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="Paransha12"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+                <proxy useProxy="false"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="true"
+            hostname="us-pnp-dc03.prod.hclpnp.com" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!cc99" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings ADtrustSource="NONE"
+        ADtrustStorePassword="#com.ghc.1!056d" ADtrustStorePath=""
+        autoLogin="true" host="AP-PNP-DC02"
+        permFactId="rtcp.permissions.factory.none" port="389" pswd="4/jd6Tznl4dFoEmQ1g+IoAoQBHqV4fN9NoDrkMBbWUU=$2TdwgaX5ZABWUQZz2w8oXPTy0yNN6PICYiyopcuKOpg="/>
+    <resultPublishers disableAll="false"/>
+    <publishedResourceInfo>
+        <info domain="AddNumber25072023"
+            serverUrl="https://lp1-ap-52016888.prod.hclpnp.com:5443/RTCP/"
+            vMajor="1" vMinor="0">
+            <resource id="55a9c298:1898c14b60e:-7df3"/>
+        </info>
+    </publishedResourceInfo>
+</_c>
